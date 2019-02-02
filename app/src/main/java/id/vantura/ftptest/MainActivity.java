@@ -66,7 +66,6 @@ public class MainActivity extends Activity {
         activity = this;
         selector = (Button) findViewById(R.id.selectfile);
         upload = (Button) findViewById(R.id.upload);
-        filePath = (TextView) findViewById(R.id.textView1);
         selector.setOnClickListener(new SelectFile());
         upload.setOnClickListener(new View.OnClickListener() {
 
